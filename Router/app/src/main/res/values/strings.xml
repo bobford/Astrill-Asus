@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Router</string>
+    <string name="instructions">"This loads the Astrill firmware onto the Asus router. The firmware can be obtained from the Astrill website:
+        https://www.astrill.com/member-zone/log-in
+      If you are in China: Our alternative website is https://www.getastr.com
+      Scroll down to "Router set-up" and click on "Install now".  The SSH command "eval wget …" will be in the window. Copy this for later.
+      Login to router via Chrome at address 192.168.50.1 with Asus user name and password.  The button for the Astrill VPN will be on the left.  Click and the Astrill interface will be brought up.  It will be necessary to disconnect VPN to load firmware.
+      Parameters for user, password, host address, and SSH command can be set to current values in:
+      /com.bob.router/files/params.txt
+      Run this app after all of the above has been done.\n"</string>
+    <string name="err_1">"Fatal error: Exception thrown\n"</string>
+    <string name="err_2">"Fatal error: Unknown user or unknown router. Unable to connect.\n"</string>
+    <string name="err_3">"Fatal error: Security exception. Encrypted Shared Preferences not initialized.\n"</string>
+    <string name="err_4">"Fatal error: Bad parameter file.\n"</string>
+    <string name="err_5">"Fatal error: permission not granted\n"</string>
+    <string name="err_6">"Fatal error: bad parameter in host address: not IPV4\n"</string>
+    <string name="err_7">"Fatal error: Attempt to load Astrill applet via SSH failed.\n"</string>
+    <string name="err_8">"\nFatal error: Not connected to Asus router.\n\n"</string>
+    <string name="err_9">"Parameter file not initialized with required parameters, using defaults.\n"</string>
+    <string name="info_1">"Process complete!\n"</string>
+</resources>
